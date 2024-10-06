@@ -29,5 +29,5 @@ Puedes visualizar el currículum en este enlace: [Visualizar Currículum](https:
 
 - **Correo Electrónico**: angel.rivera202@upr.edu
 - **GitHub**: [github.com/Zrem-lix](https://github.com/Zrem-lix)
-- **LinkedIn**: [linkedin.com/in/angel-rivera](https://www.linkedin.com/in/angel-rivera)
+- **LinkedIn**: [linkedin.com/in/angel-rivera]([https://www.linkedin.com/in/angel-rivera](https://www.linkedin.com/in/angel-rivera-217196325/))
 
