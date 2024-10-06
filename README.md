@@ -1,4 +1,4 @@
-# Currículum Profesional de Ángel Rivera Merly
+# Currículum Profesional de Ángel Rivera
 
 Este repositorio contiene mi currículum en formato web, desarrollado con HTML, CSS y JavaScript. Está diseñado para mostrar de manera profesional y visualmente atractiva mi experiencia y habilidades técnicas en desarrollo frontend, programación en C++, Python, y más.
 
