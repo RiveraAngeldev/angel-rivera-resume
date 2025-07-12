@@ -10,18 +10,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const isEnglish = langToggle.checked;
 
     if (isEnglish) {
-      // SUMMARY
       document.getElementById("summary-title").textContent = "Professional Summary";
       document.getElementById("summary").textContent =
-        "Frontend developer with one year of experience in HTML, CSS, and JavaScript, focused on building modern and optimized interfaces. In addition to my frontend experience, my C++ studies have strengthened my programming skills, allowing me to tackle complex problems and develop efficient solutions. Although I temporarily paused my frontend training due to university C++ studies, I’m ready to refocus and continue growing in this field. I’m seeking a Co-op opportunity where I can apply my web design and development skills while learning from experienced professionals in a collaborative environment.";
-
-      // EDUCATION
+        "Frontend developer with one year of experience in HTML, CSS, and JavaScript, focused on building modern and optimized interfaces. In addition to my frontend experience, my C++ studies have strengthened my programming skills, allowing me to tackle complex problems and develop efficient solutions. I’m seeking a Co-op opportunity where I can apply my web design and development skills while learning from experienced professionals in a collaborative environment.";
+      
       document.getElementById("education-title").textContent = "Education";
       document.querySelector("#education-section p:nth-of-type(1)").textContent = "UPRM - Software Engineering (2023 - 2025)";
       document.querySelector("#education-section p:nth-of-type(2)").textContent = "UAGM - Computer Engineering (2025 - Present)";
       document.querySelector("#education-section p:nth-of-type(3)").textContent = "Self-Taught Programming Studies (2019 - Present)";
 
-      // EXPERIENCE
       document.getElementById("experience-title").textContent = "Experience";
 
       document.querySelector("#experience-section h3:nth-of-type(1)").textContent = "To-Do List App";
@@ -48,7 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
         <li>Reinforced object-oriented programming, game logic, and animation rendering.</li>
       `;
 
-      // SKILLS
       document.getElementById("skills-title").textContent = "Technical Skills";
       document.getElementById("skills").innerHTML = `
         <li>HTML</li>
@@ -62,15 +58,13 @@ document.addEventListener("DOMContentLoaded", () => {
         <li>Fluent in Spanish and English</li>
       `;
 
-      // REFERENCES
       document.getElementById("references-title").textContent = "References";
       document.querySelector("#references-section p").textContent = "Available upon request.";
 
     } else {
-      // Español
       document.getElementById("summary-title").textContent = "Resumen Profesional";
       document.getElementById("summary").textContent =
-        "Desarrollador frontend con un año de experiencia en HTML, CSS y JavaScript, enfocado en contribuir al desarrollo de interfaces modernas y optimizadas. Además de mi experiencia en desarrollo frontend, mis estudios en C++ han fortalecido mis habilidades en programación, lo que me permite abordar problemas complejos y desarrollar soluciones más eficientes. Aunque pausé temporalmente mi formación en frontend debido a mis estudios de C++ en la universidad, estoy listo para retomar mi enfoque y seguir creciendo en este campo. Busco una oportunidad de Co-op donde pueda aplicar mis habilidades de diseño y desarrollo web, además de aprender de profesionales experimentados en un entorno colaborativo.";
+        "Desarrollador frontend con un año de experiencia en HTML, CSS y JavaScript, enfocado en contribuir al desarrollo de interfaces modernas y optimizadas. Además de mi experiencia en desarrollo frontend, mis estudios en C++ han fortalecido mis habilidades en programación, lo que me permite abordar problemas complejos y desarrollar soluciones más eficientes. Busco una oportunidad de Co-op donde pueda aplicar mis habilidades de diseño y desarrollo web, además de aprender de profesionales experimentados en un entorno colaborativo.";
 
       document.getElementById("education-title").textContent = "Educación";
       document.querySelector("#education-section p:nth-of-type(1)").textContent = "UPRM - Ingeniería en Software (2023 - 2025)";
